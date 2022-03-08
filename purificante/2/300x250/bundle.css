@@ -1,0 +1,242 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+
+html {
+  font-size: 1em; }
+
+body {
+  font-size: 100%; }
+
+a img, :link img, :visited img {
+  border: 0; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+.alpha-0 {
+  opacity: 0; }
+
+.invisible {
+  visibility: hidden; }
+
+.none {
+  display: none; }
+
+.offstage {
+  position: absolute;
+  left: -4000px;
+  top: -4000px; }
+
+.transform-reset {
+  transform: none !important; }
+
+.anti-alias, .white-text-alias-mac {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.gpu {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transform: translateZ(0); }
+
+@supports (-moz-appearance: meterbar) {
+  .gpu {
+    transform: translateZ(0) rotate(0.02deg); } }
+
+#ad_content {
+  background: #fff;
+  cursor: pointer;
+  border: 1px solid black;
+  font-family: Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  position: absolute;
+  width: 300px;
+  height: 250px; }
+  #ad_content div, #ad_content svg {
+    position: absolute; }
+
+.backup {
+  background: url("backup.jpg") -1px -1px no-repeat;
+  background-size: 300px 250px;
+  border: 1px solid black;
+  cursor: pointer;
+  position: absolute;
+  width: 300px;
+  height: 250px; }
+
+#background_white {
+  width: 300px;
+  height: 38px;
+  background-color: #fff; }
+
+#background_2 {
+  width: 300px;
+  height: 250px;
+  background-color: #00bbee; }
+
+#shape {
+  top: 99px;
+  left: 19px; }
+
+#glass {
+  top: 111px;
+  left: 245px; }
+
+#txt_1 {
+  top: 112px;
+  left: 33px; }
+
+#txt_2 {
+  top: 92px;
+  left: 104px; }
+
+#txt_3 {
+  top: 132px;
+  left: 104px; }
+
+#txt_4 {
+  top: 92px;
+  left: 104px; }
+
+#product_1 {
+  top: 47px;
+  left: 32px; }
+
+#product_2 {
+  top: -1px;
+  left: 0px; }
+
+#logo_1 {
+  top: -1px;
+  left: 86px; }
+
+#logo_2 {
+  top: -1px;
+  left: 68px; }
+
+#phone_down {
+  top: 319px;
+  left: 56px; }
+
+#phone_up {
+  top: 319px;
+  left: 189px; }
+
+#phone_up_green {
+  top: 319px;
+  left: 189px; }
+
+#txt_5 {
+  top: 113px;
+  left: 104px; }
+
+#txt_6 {
+  top: 92px;
+  left: 139px; }
+
+#txt_7 {
+  top: 582px;
+  left: 9px; }
+
+#txt_8 {
+  top: 123px;
+  left: 141px; }
+
+#txt_9 {
+  top: 229px;
+  left: 4px; }
+
+#txt_ef {
+  top: 134px;
+  left: 45px; }
+
+#cta {
+  top: 182px;
+  left: 154px; }
+
+.sprite-jpg { background-image: url('sprite.jpg') }
+.sprite-jpg.background_1 {
+  width: 300px;
+  height: 250px;
+  background-position: 0px 0px; }
+.sprite-png { background-image: url('sprite.png') }
+.sprite-png.cta {
+  width: 113px;
+  height: 24px;
+  background-position: -132px -276px;
+  background-size: 567px 309px; }
+.sprite-png.glass {
+  width: 24px;
+  height: 25px;
+  background-position: -528px -54px;
+  background-size: 567px 309px; }
+.sprite-png.logo_1 {
+  width: 127px;
+  height: 33px;
+  background-position: 0px -276px;
+  background-size: 567px 309px; }
+.sprite-png.logo_2 {
+  width: 161px;
+  height: 41px;
+  background-position: -363px -54px;
+  background-size: 567px 309px; }
+.sprite-png.product_1 {
+  width: 51px;
+  height: 168px;
+  background-position: -306px -54px;
+  background-size: 567px 309px; }
+.sprite-png.product_2 {
+  width: 300px;
+  height: 250px;
+  background-position: 0px 0px;
+  background-size: 567px 309px; }
+.sprite-png.shape {
+  width: 261px;
+  height: 50px;
+  background-position: -306px 0px;
+  background-size: 567px 309px; }
+.sprite-png.txt_1 {
+  width: 198px;
+  height: 25px;
+  background-position: -363px -135px;
+  background-size: 567px 309px; }
+.sprite-png.txt_2 {
+  width: 176px;
+  height: 33px;
+  background-position: -363px -99px;
+  background-size: 567px 309px; }
+.sprite-png.txt_3 {
+  width: 176px;
+  height: 23px;
+  background-position: -306px -228px;
+  background-size: 567px 309px; }
+.sprite-png.txt_4 {
+  width: 167px;
+  height: 14px;
+  background-position: -294px -255px;
+  background-size: 567px 309px; }
+.sprite-png.txt_5 {
+  width: 75px;
+  height: 14px;
+  background-position: -486px -228px;
+  background-size: 567px 309px; }
+.sprite-png.txt_6 {
+  width: 138px;
+  height: 19px;
+  background-position: -363px -204px;
+  background-size: 567px 309px; }
+.sprite-png.txt_8 {
+  width: 138px;
+  height: 36px;
+  background-position: -363px -165px;
+  background-size: 567px 309px; }
+.sprite-png.txt_9 {
+  width: 290px;
+  height: 18px;
+  background-position: 0px -255px;
+  background-size: 567px 309px; }
