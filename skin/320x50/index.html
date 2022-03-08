@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Banner</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="bundle.css">
+    <meta name="ad.size" content="width=320,height=50">
+  </head>
+
+  <body>
+    <script>
+        var clickTag = "#";
+      </script>
+
+    <div id="backup" onclick="window.open(window.clickTag || window.clickTag)"></div>
+    <div id="ad_content" class="invisible">
+      <!-- Ad content goes here -->
+      <div id="background" class="sprite-jpg background "></div>
+      <div id="logo" class="sprite-png logo middle"></div>
+      <div id="product_1" class="sprite-png product_1 "></div>
+      <div id="txt_1" class="sprite-png txt_1 middle invisible"></div>
+      <!-- <div id="txt_2" class="sprite-png txt_2 middle invisible"></div> -->
+      <div id="txt_3" class="sprite-png txt_3 middle invisible"></div>
+      <div id="txt_4" class="sprite-png txt_4 middle invisible"></div>
+      <div id="txt_5" class="sprite-png txt_5  invisible"></div>
+      <div id="txt_6" class="sprite-png txt_6  invisible"></div>
+      <div id="txt_7" class="sprite-png txt_7  invisible"></div>
+      <div id="txt_8" class="sprite-png txt_8 middle invisible"></div>
+      <div id="txt_9" class="sprite-png txt_9 middle invisible"></div>
+      <div id="txt_10" class="sprite-png txt_10 middle invisible"></div>
+
+      <div id="cta_container" class="cta_container invisible">
+        <div id="cta" class="sprite-png cta"></div>
+        <div id="cta_hover" class="sprite-png cta_hover invisible"></div>
+      </div>
+    </div>
+
+    <!--[if !IE]><!-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="bundle.js"></script>
+    <!--<![endif]-->
+    <!--[if IE]>
+      <script>
+        document.getElementById('backup').className = 'backup'; // IE9 or below
+      </script>
+      <![endif]-->
+  </body>
+
+</html>
