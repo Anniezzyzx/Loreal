@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Banner</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="bundle.css">
+    <meta name="ad.size" content="width=300,height=600">
+  </head>
+
+  <body>
+    <script>
+      var clickTag = "#";
+    </script>
+
+    <div id="backup" onclick="window.open(window.clickTag || window.clickTag)"></div>
+    <div id="ad_content" class="invisible">
+      <div id="product-01" class="sprite-png product-01 center"></div>
+
+      <div id="txt_1a" class="sprite-png txt_1a center"></div>
+      <div id="txt_1b" class="sprite-png txt_1b center"></div>
+
+      <div id="icecream" class="sprite-svg icecream center invisible"></div>
+      <div id="overlay-01"></div>
+      <div id="product-02" class="sprite-png product-02 center-middle"></div>
+      <div id="txt_2" class="sprite-png txt_2 center"></div>
+
+      <div id="waves" class="sprite-svg waves center invisible"></div>
+      <div id="overlay-02"></div>
+      <div id="product-03" class="sprite-png product-03 center-middle"></div>
+      <div id="txt_3" class="sprite-png txt_3 center"></div>
+
+      <div id="sunglasses" class="sprite-svg sunglasses center invisible"></div>
+      <div id="overlay-03"></div>
+      <div id="product-04" class="sprite-png product-04 center-middle"></div>
+      <div id="txt_4" class="sprite-png txt_4 center"></div>
+
+      <div id="cta" class="center">
+        <div id="cta-bg"></div>
+        <div id="cta_txt" class="sprite-png cta_txt center-middle"></div>
+      </div>
+
+      <div id="logo" class="sprite-png logo center"></div>
+    </div>
+
+    <!--[if !IE]><!-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="bundle.js"></script>
+    <!--<![endif]-->
+    <!--[if IE]>
+    <script>
+      document.getElementById('backup').className = 'backup'; // IE9 or below
+    </script>
+    <![endif]-->
+  </body>
+
+</html>
