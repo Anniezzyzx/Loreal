@@ -1,0 +1,243 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+
+html {
+  font-size: 1em; }
+
+body {
+  font-size: 100%; }
+
+a img, :link img, :visited img {
+  border: 0; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+.alpha-0 {
+  opacity: 0; }
+
+.invisible {
+  visibility: hidden; }
+
+.none {
+  display: none; }
+
+.offstage {
+  position: absolute;
+  left: -4000px;
+  top: -4000px; }
+
+.transform-reset {
+  transform: none !important; }
+
+.anti-alias, .white-text-alias-mac {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.gpu {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transform: translateZ(0); }
+
+@supports (-moz-appearance: meterbar) {
+  .gpu {
+    transform: translateZ(0) rotate(0.02deg); } }
+
+#ad_content {
+  background: #e9e8e8;
+  cursor: pointer;
+  border: 1px solid black;
+  font-family: Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  background: url("backup.jpg") -1px -1px no-repeat; }
+  #ad_content div, #ad_content svg {
+    position: absolute; }
+
+.backup {
+  background-size: 300px 250px;
+  border: 1px solid black;
+  cursor: pointer;
+  position: absolute;
+  width: 300px;
+  height: 250px; }
+
+#txt_1 {
+  top: 23px;
+  left: 24px; }
+
+#txt_2 {
+  top: 128px;
+  left: 24px; }
+
+#txt_3 {
+  top: 127px;
+  left: 185px; }
+
+#txt_4 {
+  top: 153px;
+  left: 196px; }
+
+#txt_9 {
+  top: 218px;
+  left: 126px; }
+
+#product_1 {
+  top: 69px;
+  left: 101px; }
+
+#product_2 {
+  top: 79px;
+  left: 135px; }
+
+#product_1b {
+  top: 69px;
+  left: 46px; }
+
+#product_2b {
+  top: 79px;
+  left: 80px; }
+
+#rectangle {
+  top: 233px;
+  left: 29px; }
+
+#she {
+  top: 14px;
+  left: 9px;
+  transform-origin: bottom; }
+
+#rectangle_2 {
+  top: 574px;
+  left: 180px; }
+
+#logo {
+  top: -1px;
+  left: 219px; }
+
+#txt_5 {
+  top: 120px;
+  left: 147px; }
+
+#txt_6 {
+  top: 23px;
+  left: 24px; }
+
+#txt_7 {
+  top: 106px;
+  left: 160px; }
+
+#txt_8 {
+  top: 238px;
+  left: 48px; }
+
+#cta {
+  top: 121px;
+  left: 167px; }
+
+#corner_block {
+  transform-origin: bottom left;
+  bottom: 0px;
+  background-color: #b5463b;
+  height: 172px;
+  width: 65px; }
+
+#ruler {
+  right: -1px;
+  height: 250px;
+  width: 10px;
+  background: url("ruler.png");
+  background-repeat: repeat-y; }
+
+#background {
+  left: -1px; }
+
+.sprite-jpg { background-image: url('sprite.jpg') }
+.sprite-jpg.she {
+  width: 280px;
+  height: 223px;
+  background-position: 0px 0px;
+  background-size: 282px 225px; }
+.sprite-png { background-image: url('sprite.png') }
+.sprite-png.background {
+  width: 300px;
+  height: 250px;
+  background-position: 0px 0px;
+  background-size: 411px 384px; }
+.sprite-png.cta {
+  width: 100px;
+  height: 29px;
+  background-position: -240px -318px;
+  background-size: 411px 384px; }
+.sprite-png.logo {
+  width: 80px;
+  height: 37px;
+  background-position: -156px -318px;
+  background-size: 411px 384px; }
+.sprite-png.product_1 {
+  width: 40px;
+  height: 166px;
+  background-position: -369px 0px;
+  background-size: 411px 384px; }
+.sprite-png.product_2 {
+  width: 59px;
+  height: 157px;
+  background-position: -306px 0px;
+  background-size: 411px 384px; }
+.sprite-png.rectangle {
+  width: 56px;
+  height: 7px;
+  background-position: -306px -180px;
+  background-size: 411px 384px; }
+.sprite-png.txt_1 {
+  width: 153px;
+  height: 39px;
+  background-position: -117px -255px;
+  background-size: 411px 384px; }
+.sprite-png.txt_2 {
+  width: 91px;
+  height: 22px;
+  background-position: -99px -360px;
+  background-size: 411px 384px; }
+.sprite-png.txt_3 {
+  width: 96px;
+  height: 22px;
+  background-position: 0px -360px;
+  background-size: 411px 384px; }
+.sprite-png.txt_4 {
+  width: 74px;
+  height: 19px;
+  background-position: -195px -360px;
+  background-size: 411px 384px; }
+.sprite-png.txt_5 {
+  width: 127px;
+  height: 31px;
+  background-position: -273px -255px;
+  background-size: 411px 384px; }
+.sprite-png.txt_6 {
+  width: 153px;
+  height: 37px;
+  background-position: 0px -318px;
+  background-size: 411px 384px; }
+.sprite-png.txt_7 {
+  width: 111px;
+  height: 59px;
+  background-position: 0px -255px;
+  background-size: 411px 384px; }
+.sprite-png.txt_8 {
+  width: 202px;
+  height: 9px;
+  background-position: -117px -300px;
+  background-size: 411px 384px; }
+.sprite-png.txt_9 {
+  width: 42px;
+  height: 13px;
+  background-position: -306px -162px;
+  background-size: 411px 384px; }
