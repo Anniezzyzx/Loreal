@@ -1,0 +1,230 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+
+html {
+  font-size: 1em; }
+
+body {
+  font-size: 100%; }
+
+a img, :link img, :visited img {
+  border: 0; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+.alpha-0 {
+  opacity: 0; }
+
+.invisible {
+  visibility: hidden; }
+
+.none {
+  display: none; }
+
+.offstage {
+  position: absolute;
+  left: -4000px;
+  top: -4000px; }
+
+.transform-reset {
+  transform: none !important; }
+
+.anti-alias, .white-text-alias-mac {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.gpu {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transform: translateZ(0); }
+
+@supports (-moz-appearance: meterbar) {
+  .gpu {
+    transform: translateZ(0) rotate(0.02deg); } }
+
+.center-trans {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.middle-trans {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.center-middle-trans {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+.middle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto; }
+
+.center-middle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+
+#ad_content {
+  background: #e86025;
+  cursor: pointer;
+  border: 1px solid black;
+  font-family: Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  position: absolute;
+  width: 300px;
+  height: 600px; }
+  #ad_content div, #ad_content svg {
+    position: absolute;
+    transform: translate3d(0, 0, 0); }
+
+.backup {
+  background: url("backup.jpg") -1px -1px no-repeat;
+  background-size: 300px 600px;
+  border: 1px solid black;
+  cursor: pointer;
+  position: absolute;
+  width: 300px;
+  height: 600px; }
+
+#logo {
+  top: 16px;
+  left: 112px; }
+
+#pack {
+  top: 228px;
+  left: 93px; }
+
+#pack-f2 {
+  top: 160px;
+  left: 93px; }
+
+#sombra {
+  top: 214px;
+  left: 39px; }
+
+#sombra-f2 {
+  top: 420px;
+  left: 82px; }
+
+#txt_1 {
+  top: 66px;
+  left: 63px; }
+
+#txt_2 {
+  top: 177px;
+  left: 63px; }
+
+#txt_3 {
+  top: 527px;
+  left: 29px; }
+
+#txt_4 {
+  top: 468px;
+  left: 88px; }
+
+#txt_5 {
+  top: 465px;
+  left: 24px; }
+
+#overlay {
+  width: 300px;
+  height: 600px;
+  background: #92edef;
+  top: 300px; }
+
+#cta {
+  width: 141px;
+  height: 32px;
+  top: 527px; }
+  #cta #cta-bg {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: #fff; }
+  #cta #cta_txt {
+    top: -2px; }
+
+.sprite-jpg { background-image: url('sprite.jpg') }
+.sprite-jpg.backgroundagua {
+  width: 300px;
+  height: 301px;
+  background-position: 0px 0px;
+  background-size: 303px 303px; }
+.sprite-png { background-image: url('sprite.png') }
+.sprite-png.cta_txt {
+  width: 115px;
+  height: 17px;
+  background-position: -237px -210px;
+  background-size: 411px 378px; }
+.sprite-png.logo {
+  width: 76px;
+  height: 22px;
+  background-position: -237px -231px;
+  background-size: 411px 378px; }
+.sprite-png.pack {
+  width: 112px;
+  height: 274px;
+  background-position: -120px 0px;
+  background-size: 411px 378px; }
+.sprite-png.sombra2 {
+  width: 134px;
+  height: 28px;
+  background-position: -237px -159px;
+  background-size: 411px 378px; }
+.sprite-png.sombra {
+  width: 117px;
+  height: 287px;
+  background-position: 0px 0px;
+  background-size: 411px 378px; }
+.sprite-png.txt_1 {
+  width: 173px;
+  height: 108px;
+  background-position: -237px 0px;
+  background-size: 411px 378px; }
+.sprite-png.txt_2 {
+  width: 170px;
+  height: 14px;
+  background-position: -237px -192px;
+  background-size: 411px 378px; }
+.sprite-png.txt_3 {
+  width: 237px;
+  height: 32px;
+  background-position: 0px -345px;
+  background-size: 411px 378px; }
+.sprite-png.txt_4 {
+  width: 123px;
+  height: 45px;
+  background-position: -237px -111px;
+  background-size: 411px 378px; }
+.sprite-png.txt_5 {
+  width: 250px;
+  height: 48px;
+  background-position: 0px -291px;
+  background-size: 411px 378px; }
+.sprite-svg { background: url('sprite.svg') no-repeat; }
+.sprite-svg.cta_arrow {
+  background-position: 0 0;
+  width: 11.9px;
+  height: 15px; }
